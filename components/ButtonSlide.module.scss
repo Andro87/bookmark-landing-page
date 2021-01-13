@@ -1,0 +1,30 @@
+.text_button {
+    border-bottom: 2px solid hsl(223, 19%, 93%);
+    border-style: none none solid;
+    font-family: "rubik";
+    src: url("../public/fonts/Rubik-Medium.ttf");
+    font-weight: 500;
+    font-size: 0.8rem;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--GrayishBlue);
+    padding: 20px;
+
+    &:hover {
+        color: var(--SoftRed);
+    }
+}
+.chosen {
+    border-bottom: 3px solid hsl(0, 80%, 51%);
+    border-style: none none solid;
+    font-family: "rubik";
+    src: url("../public/fonts/Rubik-Medium.ttf");
+    font-weight: 500;
+    font-size: 0.8rem;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--VeryDarkBlue);
+    padding: 20px;
+}

@@ -1,0 +1,40 @@
+.box {
+    box-shadow: 0 5px 5px 5px hsl(225, 12%, 93%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+    border-radius: 5px;
+    width: 100%; /**/
+    max-width: 250px; /**/
+}
+
+.dot_line {
+    border-top: 4px dotted hsl(223, 7%, 81%);
+    border-style: dotted none none;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.left {
+    position: relative;
+    justify-self: start;
+    @media screen and (max-width: 800px) {
+        justify-self: center;
+    }
+}
+
+.center {
+    position: relative;
+    top: 30px;
+    justify-self: center;
+}
+.right {
+    position: relative;
+    top: 60px;
+    justify-self: flex-end;
+    @media screen and (max-width: 800px) {
+        justify-self: center;
+    }
+}

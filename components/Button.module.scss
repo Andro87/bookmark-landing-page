@@ -1,0 +1,50 @@
+.button {
+    outline: none;
+    border-radius: 5px;
+    font-family: "rubik";
+    font-weight: 500;
+    font-size: 0.7rem;
+    padding: 12px 18px;
+    border: 2px solid transparent;
+    @media screen and (max-width: 800px) {
+        padding: 18px 20px;
+    }
+}
+
+.blue {
+    background-color: var(--SoftBlue);
+    color: whitesmoke;
+    &:hover {
+        border: 2px solid var(--SoftBlue);
+        background-color: transparent;
+        color: var(--SoftBlue);
+        cursor: pointer;
+    }
+}
+
+.white {
+    background-color: whitesmoke;
+    color: var(--VeryDarkBlue);
+    &:hover {
+        border: 2px solid var(--VeryDarkBlue);
+        background-color: transparent;
+        color: var(--VeryDarkBlue);
+        cursor: pointer;
+    }
+}
+
+.med {
+    width: 160px;
+}
+
+.big {
+    width: 100%;
+}
+
+.small {
+    width: 100px;
+    @media screen and (max-width: 800px) {
+        padding: 10px 15px;
+        margin: auto;
+    }
+}
